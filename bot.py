@@ -4,6 +4,7 @@ from database import players, save_db, ensure_defaults
 from keyboards import get_main_keyboard, get_admin_keyboard
 
 
+
 # хендлеры
 from handlers.admin import register_admin_handlers
 from handlers.shop import register_shop_handlers
@@ -18,6 +19,7 @@ from handlers.top import register_top_handlers
 from handlers.clans import register_clan_handlers
 from handlers.casino import register_casino_handlers
 from handlers.misc import register_misc_handlers
+from handlers.admin import register_admin_handlers
 
 bot = telebot.TeleBot(TOKEN, parse_mode="HTML")
 
@@ -83,6 +85,8 @@ register_top_handlers(bot)
 register_clan_handlers(bot)
 register_casino_handlers(bot)
 register_misc_handlers(bot)
+register_admin_handlers(bot)
 
 print("Бот запущен…")
 bot.infinity_polling()
+
