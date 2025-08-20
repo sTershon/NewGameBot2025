@@ -1,0 +1,48 @@
+{
+  "7693086158": {
+    "name": "dsa",
+    "level": 0,
+    "xp": 0,
+    "hp": 0,
+    "gold": 57432,
+    "inventory": [],
+    "city": "Питер",
+    "exit_pass": true,
+    "referral_code": "7693086158",
+    "referrals": [],
+    "businesses": [
+      {
+        "name": "Шахта",
+        "city": "Начальный",
+        "profit": 900,
+        "last_collect": 1755706347.9560366
+      }
+    ],
+    "stage": null,
+    "attack": 5,
+    "armor": 10,
+    "travel_pass": true,
+    "items": [
+      "Меч воина",
+      "Зелье лечения"
+    ],
+    "realty": [
+      {
+        "name": "Элитная квартира",
+        "price": 20000,
+        "rent": 1000
+      }
+    ],
+    "clan_id": null,
+    "last_work": 1755699619,
+    "last_fight": 1755699717,
+    "equipped_weapon": "❌ Нет",
+    "tag_color": null,
+    "equipped_armor": "❌ Нет",
+    "death_cooldown": 1755708677.4498181,
+    "achievements": [],
+    "upgrades": {},
+    "attack_bonus": 0,
+    "hp_bonus": 0
+  }
+}
